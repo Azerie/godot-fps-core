@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="WeaponResource" load_steps=2 format=3 uid="uid://dwbnia4oh4iyb"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponResource.gd" id="1_nlltj"]
+
+[resource]
+script = ExtResource("1_nlltj")
+WeaponName = "Rifle"
+EquipAnimation = "RifleEquip"
+UnequipAnimation = "RifleUnequip"
+ShotAnimation = "RifleShot"
+IsFullAuto = true
+BulletType = 1
+Damage = 1

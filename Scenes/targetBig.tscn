@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://mwtk4tyk0r0o"]
+
+[ext_resource type="Script" path="res://Scenes/Target.gd" id="1_8rb26"]
+[ext_resource type="PackedScene" uid="uid://cgp825uwtptj7" path="res://assets/weapons (by kenney)/targetB.glb" id="2_84c50"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_semgh"]
+height = 0.0716134
+radius = 0.173884
+
+[node name="Target" type="RigidBody3D" groups=["Target"]]
+script = ExtResource("1_8rb26")
+health = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+shape = SubResource("CylinderShape3D_semgh")
+
+[node name="targetB2" parent="." instance=ExtResource("2_84c50")]
+transform = Transform3D(-2.18557e-07, -5, 0, 5, -2.18557e-07, 0, 0, 0, 5, 0, 0, 0)

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="WeaponResource" load_steps=2 format=3 uid="uid://b67oqi8p5sudb"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponResource.gd" id="1_pfdbb"]
+
+[resource]
+script = ExtResource("1_pfdbb")
+WeaponName = "Sniper"
+EquipAnimation = "SniperEquip"
+UnequipAnimation = "SniperUnequip"
+ShotAnimation = "SniperShot"
+IsFullAuto = false
+BulletType = 1
+Damage = 10

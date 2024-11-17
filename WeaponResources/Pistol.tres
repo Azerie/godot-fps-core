@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="WeaponResource" load_steps=2 format=3 uid="uid://bmdww5vb7c16n"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponResource.gd" id="1_ym1up"]
+
+[resource]
+script = ExtResource("1_ym1up")
+WeaponName = "Pistol"
+EquipAnimation = "PistolEquip"
+UnequipAnimation = "PistolUnequip"
+ShotAnimation = "PistolShot"
+IsFullAuto = false
+BulletType = 1
+Damage = 5
